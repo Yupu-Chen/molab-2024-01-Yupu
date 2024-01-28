@@ -12,4 +12,4 @@ Here are two main issues I ran into and learnt solutions:
 
 In other languages, the upper bound of the range in for loops is usually not included. But in Swift, it is included. Therefore, I ran into this issue at first:
 
-![Range Issue](range issue.png)
+![Range Issue](https://github.com/Yupu-Chen/molab-2024-01-Yupu/blob/main/Week01/range%20issue.png)
