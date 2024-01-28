@@ -1,5 +1,7 @@
 ## If Shakespeare was texting now...
 
+![example](https://github.com/Yupu-Chen/molab-2024-01-Yupu/blob/main/Week01/example.png)
+
 In this text art assignment, I based on my on Shakespear's work of sonnets. This assignment imagined Shakespeare using smartphones and writing his sonnets with the modern technology. One of the prominent featurs of modern users of texting is the use of emojis, and emojis are the most common text art used the by public nowadays. Therefore, in this assignment, I transcribed some elements of Shakespeare's sonnets with random emojis of similar meanings. 
 
 Do these emojis express a more vivd message and emotion than plain texts? Can emojis be interpreted in different ways by various readers? These are all the themes this assignment attempted to explore.
