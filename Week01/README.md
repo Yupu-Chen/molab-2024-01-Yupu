@@ -12,4 +12,4 @@ Here are two main issues I ran into and learnt solutions:
 
 In other languages, the upper bound of the range in for loops is usually not included. But in Swift, it is included. Therefore, I ran into this issue at first:
 
-![Screenshot 2024-01-25 at 10.05.53 AM](/Users/godfery/Desktop/Screenshot 2024-01-25 at 10.05.53 AM.png)
+
