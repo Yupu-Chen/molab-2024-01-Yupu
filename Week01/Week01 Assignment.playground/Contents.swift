@@ -27,8 +27,8 @@ func conversion(_ sonnet : String, _ words : [String : [String]]) -> String {
         word.append(i.components(separatedBy: " "))
     }
     
-    for x in 0...(word.count - 1) {
-        for i in 0...(word[x].count - 1) {
+    for x in 0..<word.count {
+        for i in 0..<word[x].count {
             if words.keys.contains(word[x][i].lowercased()) {
                 var emojiNum = words[word[x][i].lowercased()]?.count ?? 0
                 var emoji = words[word[x][i].lowercased()]?[Int.random(in: 0..<emojiNum)]
