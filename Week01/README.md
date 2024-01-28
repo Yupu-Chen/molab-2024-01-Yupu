@@ -30,3 +30,4 @@ for x in 0...(word.count - 1)
 
 I ran into the following issue when I assign wrapped value to the variable of optional data type:
 
+![unwrapped value](https://github.com/Yupu-Chen/molab-2024-01-Yupu/blob/main/Week01/unwrapped.png)
