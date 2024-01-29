@@ -29,11 +29,17 @@ func conversion(_ sonnet : String, _ words : [String : [String]]) -> String {
     
     for x in 0..<word.count {
         for i in 0..<word[x].count {
-            if words.keys.contains(word[x][i].lowercased()) {
-                var emojiNum = words[word[x][i].lowercased()]?.count ?? 0
-                var emoji = words[word[x][i].lowercased()]?[Int.random(in: 0..<emojiNum)]
-                word[x][i] = emoji ?? word[x][i]
+            let aword = word[x][i].lowercased()
+            if let entry = words[aword] {
+                let emojiNum = entry.count;
+                let emoji = entry[Int.random(in: 0..<emojiNum)]
+                word[x][i] = emoji
             }
+//            if words.keys.contains(aword) {
+//                var emojiNum = words[aword]?.count ?? 0
+//                var emoji = words[aword]?[Int.random(in: 0..<emojiNum)]
+//                word[x][i] = emoji ?? word[x][i]
+//            }
         }
         
         lines[x] = word[x].joined(separator: " ")
