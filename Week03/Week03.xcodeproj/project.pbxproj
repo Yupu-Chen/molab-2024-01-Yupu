@@ -11,6 +11,7 @@
 		2D0A1A922B72D03E007C7B63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0A1A912B72D03E007C7B63 /* ContentView.swift */; };
 		2D0A1A942B72D041007C7B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0A1A932B72D041007C7B63 /* Assets.xcassets */; };
 		2D0A1A972B72D041007C7B63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0A1A962B72D041007C7B63 /* Preview Assets.xcassets */; };
+		2DE501BC2B79424A00B1D1D5 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE501BB2B79424A00B1D1D5 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2D0A1A912B72D03E007C7B63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D0A1A932B72D041007C7B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D0A1A962B72D041007C7B63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DE501BB2B79424A00B1D1D5 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2D0A1A8F2B72D03E007C7B63 /* Week03App.swift */,
 				2D0A1A912B72D03E007C7B63 /* ContentView.swift */,
+				2DE501BB2B79424A00B1D1D5 /* StartView.swift */,
 				2D0A1A932B72D041007C7B63 /* Assets.xcassets */,
 				2D0A1A952B72D041007C7B63 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE501BC2B79424A00B1D1D5 /* StartView.swift in Sources */,
 				2D0A1A922B72D03E007C7B63 /* ContentView.swift in Sources */,
 				2D0A1A902B72D03E007C7B63 /* Week03App.swift in Sources */,
 			);

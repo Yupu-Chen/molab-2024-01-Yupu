@@ -44,16 +44,17 @@ struct ContentView: View {
                     Spawn(of: &positions)
                     numCircles = positions.count
                 }
+                .buttonStyle(.borderedProminent)
             }
         }
     }
 }
 
 func Spawn(of positions: inout Array<CGPoint>) {
-    let maxCircls = 15
+    let maxCircls = 20
     positions.removeAll()
-    for _ in 0..<Int.random(in: 2...maxCircls) {
-        positions.append(CGPoint(x: CGFloat.random(in: 0...UIScreen.main.bounds.width), y: CGFloat.random(in: 40...UIScreen.main.bounds.height-170)))
+    for _ in 0..<Int.random(in: 8...maxCircls) {
+        positions.append(CGPoint(x: CGFloat.random(in: 0...UIScreen.main.bounds.width), y: CGFloat.random(in: 50...UIScreen.main.bounds.height-240)))
     }
 }
 
