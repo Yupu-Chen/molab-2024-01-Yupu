@@ -44,9 +44,10 @@ func getDocumentsDirectory() -> URL {
     return paths[0]
 }
 
-if let image = UIImage(named: "example.png") {
+//if let image = UIImage(named: "example.png") {
     if let data = image.pngData() {
         let filename = getDocumentsDirectory().appendingPathComponent("Barcode.png")
+        print("filename", filename)
         try? data.write(to: filename)
     }
-}
+//}
