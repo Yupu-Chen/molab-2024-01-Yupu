@@ -25,7 +25,7 @@ struct StartPage: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: ContentView(), label: {
+                    NavigationLink(destination: MainContent(), label: {
                         Text("START")
                     })
                     .font(.system(size: 30, weight: .bold, design: .rounded))

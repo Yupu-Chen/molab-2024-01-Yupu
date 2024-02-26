@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainContent.swift
 //  Week04
 //
 //  Created by Yupu Chan on 19/2/2024.
@@ -33,7 +33,7 @@ func loadBundleAudio(_ fileName:String) -> AVAudioPlayer? {
     return nil
 }
 
-struct ContentView: View {
+struct MainContent: View {
     let colors = [Color(#colorLiteral(red: 0.337254902, green: 0.9215686275, blue: 0.8509803922, alpha: 1)), Color(#colorLiteral(red: 0.4858539104, green: 0.7752999663, blue: 0.9617900252, alpha: 1)), Color(.white)]
     
     // this will help display the time as Minute:Seconds
@@ -180,5 +180,5 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView()
+    MainContent()
 }
