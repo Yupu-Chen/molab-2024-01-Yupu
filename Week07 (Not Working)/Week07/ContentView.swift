@@ -19,6 +19,7 @@ struct ContentView : View {
         .onChange(of: selectedImage) {
             Task {
                 if let data = try? await selectedImage?.loadTransferable(type: Data.self) {
+                    imageCount += 1;
                     selectedImageData = data
                     print("selectedImage = data", data)
                     return
@@ -36,6 +37,7 @@ var texture: TextureResource?
 var material: SimpleMaterial = SimpleMaterial(color: .white, isMetallic: true)
 var anchor: AnchorEntity = AnchorEntity(.plane(.any, classification: .any, minimumBounds: .zero))
 var entity: ModelEntity = ModelEntity(mesh: .generateBox(size: 1.0), materials: [SimpleMaterial(color: .white, isMetallic: true)])
+var imageCount: Int = 0;
 
 struct ARViewContainer: UIViewRepresentable {
     
@@ -82,10 +84,10 @@ struct ARViewContainer: UIViewRepresentable {
         arView.addSubview(coachingOverlay)
         
         
-        entity = ModelEntity(mesh: .generateBox(size: 0.5), materials: [material])
-        anchor = AnchorEntity(.plane(.any, classification: .any, minimumBounds: .zero))
-        anchor.addChild(entity)
-        arView.scene.addAnchor(anchor)
+//        entity = ModelEntity(mesh: .generateBox(size: 0.5), materials: [material])
+//        anchor = AnchorEntity(.plane(.any, classification: .any, minimumBounds: .zero))
+//        anchor.addChild(entity)
+//        arView.scene.addAnchor(anchor)
         
         // Set debug options
 #if DEBUG
@@ -108,25 +110,26 @@ struct ARViewContainer: UIViewRepresentable {
 //        }
         
         if let data = self.selectedImageData {
-            let filePath = documentsDirectory.appendingPathComponent("sky.png")
+            let imageName = "image\(imageCount).png";
+            let filePath = documentsDirectory.appendingPathComponent(imageName)
+            print("updateUIView imageName =", imageName)
             print("updateUIView data =", data)
             try? data.write(to: filePath)
             DispatchQueue.main.async {
                 texture = try? TextureResource.load(contentsOf: filePath)
                 print("updateUIView self.texture =", texture ?? "-none-")
+                if let texture = texture {
+                    material.color = .init(tint: .white, texture: .init(texture))
+                    entity = ModelEntity(mesh: .generateBox(size: 0.5), materials: [material])
+                    anchor = AnchorEntity(.plane(.any, classification: .any, minimumBounds: .zero))
+                    anchor.addChild(entity)
+                    uiView.scene.addAnchor(anchor)
+                    print("updateUIView let texture", texture)
+                }
             }
         }
         
-        if let texture = texture {
-//            material.baseColor = MaterialColorParameter.texture(texture)
-//            self.material.color = MaterialColorParameter.texture(texture)
-            material.color = .init(tint: .white, texture: .init(texture))
-
-            print("updateUIView let texture", texture)
-        }
-        
         print("updateUIView updated selectedImageData", selectedImageData ?? "-none-")
-        
     }
     
 }
