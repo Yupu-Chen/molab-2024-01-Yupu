@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D159F7D2BBA4FC900B26A94 /* Week_08_NewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D159F7C2BBA4FC900B26A94 /* Week_08_NewApp.swift */; };
+		2D159F7F2BBA4FC900B26A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D159F7E2BBA4FC900B26A94 /* ContentView.swift */; };
+		2D159F812BBA4FCB00B26A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F802BBA4FCB00B26A94 /* Assets.xcassets */; };
+		2D159F842BBA4FCB00B26A94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F832BBA4FCB00B26A94 /* Preview Assets.xcassets */; };
+		2D159F8B2BBA500200B26A94 /* ImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D159F8A2BBA500200B26A94 /* ImageEntity.swift */; };
+		2D159F8D2BBA501F00B26A94 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D159F8C2BBA501F00B26A94 /* PhotosView.swift */; };
+		2D159FA72BBA504D00B26A94 /* 1900.52 - Nocturne_ Blue and Gold—Southampton Water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F8E2BBA504D00B26A94 /* 1900.52 - Nocturne_ Blue and Gold—Southampton Water.jpg */; };
+		2D159FA82BBA504D00B26A94 /* 1919.753 - View of Cotopaxi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F8F2BBA504D00B26A94 /* 1919.753 - View of Cotopaxi.jpg */; };
+		2D159FA92BBA504D00B26A94 /* 1919.898 - The Young Emperor Akbar Arrests the Insolent Shah....jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F902BBA504D00B26A94 /* 1919.898 - The Young Emperor Akbar Arrests the Insolent Shah....jpg */; };
+		2D159FAA2BBA504D00B26A94 /* 1922.422 - The Morning Bath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F912BBA504D00B26A94 /* 1922.422 - The Morning Bath.jpg */; };
+		2D159FAB2BBA504D00B26A94 /* 1926.224 - A Sunday on La Grande Jatte — 1884.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F922BBA504D00B26A94 /* 1926.224 - A Sunday on La Grande Jatte — 1884.jpg */; };
+		2D159FAC2BBA504D00B26A94 /* 1926.252 - The Basket of Apples.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F932BBA504D00B26A94 /* 1926.252 - The Basket of Apples.jpg */; };
+		2D159FAD2BBA504D00B26A94 /* 1928.903 - Evening Snow on a Floss Shaper (Nurioke no....jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F942BBA504D00B26A94 /* 1928.903 - Evening Snow on a Floss Shaper (Nurioke no....jpg */; };
+		2D159FAE2BBA504D00B26A94 /* 1931.508 - Landscape with Two Poplars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F952BBA504D00B26A94 /* 1931.508 - Landscape with Two Poplars.jpg */; };
+		2D159FAF2BBA504D00B26A94 /* 1931.522 - The Bewitched Mill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F962BBA504D00B26A94 /* 1931.522 - The Bewitched Mill.jpg */; };
+		2D159FB02BBA504D00B26A94 /* 1932.172 - Snow at Akabane Bridge in Shiba (Shiba Akabane no....jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F972BBA504D00B26A94 /* 1932.172 - Snow at Akabane Bridge in Shiba (Shiba Akabane no....jpg */; };
+		2D159FB12BBA504D00B26A94 /* 1933.786 - Saint George and the Dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F982BBA504D00B26A94 /* 1933.786 - Saint George and the Dragon.jpg */; };
+		2D159FB22BBA504D00B26A94 /* 1933.1119 - No te aha oe riri (Why Are You Angry_).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F992BBA504D00B26A94 /* 1933.1119 - No te aha oe riri (Why Are You Angry_).jpg */; };
+		2D159FB32BBA504D00B26A94 /* 1933.1156 - Branch of the Seine near Giverny (Mist).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F9A2BBA504D00B26A94 /* 1933.1156 - Branch of the Seine near Giverny (Mist).jpg */; };
+		2D159FB42BBA504D00B26A94 /* 1943.602 - Kohada Koheiji, from the series _One Hundred Ghost....jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F9B2BBA504D00B26A94 /* 1943.602 - Kohada Koheiji, from the series _One Hundred Ghost....jpg */; };
+		2D159FB52BBA504D00B26A94 /* 1946.396 - Distant View of Niagara Falls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F9C2BBA504D00B26A94 /* 1946.396 - Distant View of Niagara Falls.jpg */; };
+		2D159FB62BBA504D00B26A94 /* 1949.518 - Composition (No. 1) Gray-Red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F9D2BBA504D00B26A94 /* 1949.518 - Composition (No. 1) Gray-Red.jpg */; };
+		2D159FB72BBA504D00B26A94 /* 1949.544 - Movements.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F9E2BBA504D00B26A94 /* 1949.544 - Movements.jpg */; };
+		2D159FB82BBA504D00B26A94 /* 1953.281 - Pillars of the Country.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159F9F2BBA504D00B26A94 /* 1953.281 - Pillars of the Country.jpg */; };
+		2D159FB92BBA504D00B26A94 /* 1955.1203 - Still Life with Game Fowl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159FA02BBA504D00B26A94 /* 1955.1203 - Still Life with Game Fowl.jpg */; };
+		2D159FBA2BBA504D00B26A94 /* 1958.299 - The Road to Calvary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159FA12BBA504D00B26A94 /* 1958.299 - The Road to Calvary.jpg */; };
+		2D159FBB2BBA504D00B26A94 /* 1974.233 - Meekness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159FA22BBA504D00B26A94 /* 1974.233 - Meekness.jpg */; };
+		2D159FBC2BBA504D00B26A94 /* 1980.613 - Merahi metua no Tehamana (Tehamana Has Many....jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159FA32BBA504D00B26A94 /* 1980.613 - Merahi metua no Tehamana (Tehamana Has Many....jpg */; };
+		2D159FBD2BBA504D00B26A94 /* 1987.247 - Adam and Eve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159FA42BBA504D00B26A94 /* 1987.247 - Adam and Eve.jpg */; };
+		2D159FBE2BBA504D00B26A94 /* 2007.22 - The Emperor Sailing, from The Story of the Emperor....jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D159FA52BBA504D00B26A94 /* 2007.22 - The Emperor Sailing, from The Story of the Emperor....jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D159F792BBA4FC900B26A94 /* Week 08 New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 08 New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D159F7C2BBA4FC900B26A94 /* Week_08_NewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_08_NewApp.swift; sourceTree = "<group>"; };
+		2D159F7E2BBA4FC900B26A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D159F802BBA4FCB00B26A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D159F832BBA4FCB00B26A94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D159F8A2BBA500200B26A94 /* ImageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEntity.swift; sourceTree = "<group>"; };
+		2D159F8C2BBA501F00B26A94 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		2D159F8E2BBA504D00B26A94 /* 1900.52 - Nocturne_ Blue and Gold—Southampton Water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1900.52 - Nocturne_ Blue and Gold—Southampton Water.jpg"; sourceTree = "<group>"; };
+		2D159F8F2BBA504D00B26A94 /* 1919.753 - View of Cotopaxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1919.753 - View of Cotopaxi.jpg"; sourceTree = "<group>"; };
+		2D159F902BBA504D00B26A94 /* 1919.898 - The Young Emperor Akbar Arrests the Insolent Shah....jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1919.898 - The Young Emperor Akbar Arrests the Insolent Shah....jpg"; sourceTree = "<group>"; };
+		2D159F912BBA504D00B26A94 /* 1922.422 - The Morning Bath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1922.422 - The Morning Bath.jpg"; sourceTree = "<group>"; };
+		2D159F922BBA504D00B26A94 /* 1926.224 - A Sunday on La Grande Jatte — 1884.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1926.224 - A Sunday on La Grande Jatte — 1884.jpg"; sourceTree = "<group>"; };
+		2D159F932BBA504D00B26A94 /* 1926.252 - The Basket of Apples.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1926.252 - The Basket of Apples.jpg"; sourceTree = "<group>"; };
+		2D159F942BBA504D00B26A94 /* 1928.903 - Evening Snow on a Floss Shaper (Nurioke no....jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1928.903 - Evening Snow on a Floss Shaper (Nurioke no....jpg"; sourceTree = "<group>"; };
+		2D159F952BBA504D00B26A94 /* 1931.508 - Landscape with Two Poplars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1931.508 - Landscape with Two Poplars.jpg"; sourceTree = "<group>"; };
+		2D159F962BBA504D00B26A94 /* 1931.522 - The Bewitched Mill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1931.522 - The Bewitched Mill.jpg"; sourceTree = "<group>"; };
+		2D159F972BBA504D00B26A94 /* 1932.172 - Snow at Akabane Bridge in Shiba (Shiba Akabane no....jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1932.172 - Snow at Akabane Bridge in Shiba (Shiba Akabane no....jpg"; sourceTree = "<group>"; };
+		2D159F982BBA504D00B26A94 /* 1933.786 - Saint George and the Dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1933.786 - Saint George and the Dragon.jpg"; sourceTree = "<group>"; };
+		2D159F992BBA504D00B26A94 /* 1933.1119 - No te aha oe riri (Why Are You Angry_).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1933.1119 - No te aha oe riri (Why Are You Angry_).jpg"; sourceTree = "<group>"; };
+		2D159F9A2BBA504D00B26A94 /* 1933.1156 - Branch of the Seine near Giverny (Mist).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1933.1156 - Branch of the Seine near Giverny (Mist).jpg"; sourceTree = "<group>"; };
+		2D159F9B2BBA504D00B26A94 /* 1943.602 - Kohada Koheiji, from the series _One Hundred Ghost....jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1943.602 - Kohada Koheiji, from the series _One Hundred Ghost....jpg"; sourceTree = "<group>"; };
+		2D159F9C2BBA504D00B26A94 /* 1946.396 - Distant View of Niagara Falls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1946.396 - Distant View of Niagara Falls.jpg"; sourceTree = "<group>"; };
+		2D159F9D2BBA504D00B26A94 /* 1949.518 - Composition (No. 1) Gray-Red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1949.518 - Composition (No. 1) Gray-Red.jpg"; sourceTree = "<group>"; };
+		2D159F9E2BBA504D00B26A94 /* 1949.544 - Movements.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1949.544 - Movements.jpg"; sourceTree = "<group>"; };
+		2D159F9F2BBA504D00B26A94 /* 1953.281 - Pillars of the Country.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1953.281 - Pillars of the Country.jpg"; sourceTree = "<group>"; };
+		2D159FA02BBA504D00B26A94 /* 1955.1203 - Still Life with Game Fowl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1955.1203 - Still Life with Game Fowl.jpg"; sourceTree = "<group>"; };
+		2D159FA12BBA504D00B26A94 /* 1958.299 - The Road to Calvary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1958.299 - The Road to Calvary.jpg"; sourceTree = "<group>"; };
+		2D159FA22BBA504D00B26A94 /* 1974.233 - Meekness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1974.233 - Meekness.jpg"; sourceTree = "<group>"; };
+		2D159FA32BBA504D00B26A94 /* 1980.613 - Merahi metua no Tehamana (Tehamana Has Many....jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1980.613 - Merahi metua no Tehamana (Tehamana Has Many....jpg"; sourceTree = "<group>"; };
+		2D159FA42BBA504D00B26A94 /* 1987.247 - Adam and Eve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1987.247 - Adam and Eve.jpg"; sourceTree = "<group>"; };
+		2D159FA52BBA504D00B26A94 /* 2007.22 - The Emperor Sailing, from The Story of the Emperor....jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2007.22 - The Emperor Sailing, from The Story of the Emperor....jpg"; sourceTree = "<group>"; };
+		2D159FBF2BBA51C200B26A94 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D159F762BBA4FC900B26A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D159F702BBA4FC900B26A94 = {
+			isa = PBXGroup;
+			children = (
+				2D159FBF2BBA51C200B26A94 /* README.md */,
+				2D159F7B2BBA4FC900B26A94 /* Week 08 New */,
+				2D159F7A2BBA4FC900B26A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D159F7A2BBA4FC900B26A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D159F792BBA4FC900B26A94 /* Week 08 New.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D159F7B2BBA4FC900B26A94 /* Week 08 New */ = {
+			isa = PBXGroup;
+			children = (
+				2D159F7C2BBA4FC900B26A94 /* Week_08_NewApp.swift */,
+				2D159F7E2BBA4FC900B26A94 /* ContentView.swift */,
+				2D159F8A2BBA500200B26A94 /* ImageEntity.swift */,
+				2D159F8C2BBA501F00B26A94 /* PhotosView.swift */,
+				2D159F802BBA4FCB00B26A94 /* Assets.xcassets */,
+				2D159FA62BBA504D00B26A94 /* Content */,
+				2D159F822BBA4FCB00B26A94 /* Preview Content */,
+			);
+			path = "Week 08 New";
+			sourceTree = "<group>";
+		};
+		2D159F822BBA4FCB00B26A94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D159F832BBA4FCB00B26A94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D159FA62BBA504D00B26A94 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D159F8E2BBA504D00B26A94 /* 1900.52 - Nocturne_ Blue and Gold—Southampton Water.jpg */,
+				2D159F8F2BBA504D00B26A94 /* 1919.753 - View of Cotopaxi.jpg */,
+				2D159F902BBA504D00B26A94 /* 1919.898 - The Young Emperor Akbar Arrests the Insolent Shah....jpg */,
+				2D159F912BBA504D00B26A94 /* 1922.422 - The Morning Bath.jpg */,
+				2D159F922BBA504D00B26A94 /* 1926.224 - A Sunday on La Grande Jatte — 1884.jpg */,
+				2D159F932BBA504D00B26A94 /* 1926.252 - The Basket of Apples.jpg */,
+				2D159F942BBA504D00B26A94 /* 1928.903 - Evening Snow on a Floss Shaper (Nurioke no....jpg */,
+				2D159F952BBA504D00B26A94 /* 1931.508 - Landscape with Two Poplars.jpg */,
+				2D159F962BBA504D00B26A94 /* 1931.522 - The Bewitched Mill.jpg */,
+				2D159F972BBA504D00B26A94 /* 1932.172 - Snow at Akabane Bridge in Shiba (Shiba Akabane no....jpg */,
+				2D159F982BBA504D00B26A94 /* 1933.786 - Saint George and the Dragon.jpg */,
+				2D159F992BBA504D00B26A94 /* 1933.1119 - No te aha oe riri (Why Are You Angry_).jpg */,
+				2D159F9A2BBA504D00B26A94 /* 1933.1156 - Branch of the Seine near Giverny (Mist).jpg */,
+				2D159F9B2BBA504D00B26A94 /* 1943.602 - Kohada Koheiji, from the series _One Hundred Ghost....jpg */,
+				2D159F9C2BBA504D00B26A94 /* 1946.396 - Distant View of Niagara Falls.jpg */,
+				2D159F9D2BBA504D00B26A94 /* 1949.518 - Composition (No. 1) Gray-Red.jpg */,
+				2D159F9E2BBA504D00B26A94 /* 1949.544 - Movements.jpg */,
+				2D159F9F2BBA504D00B26A94 /* 1953.281 - Pillars of the Country.jpg */,
+				2D159FA02BBA504D00B26A94 /* 1955.1203 - Still Life with Game Fowl.jpg */,
+				2D159FA12BBA504D00B26A94 /* 1958.299 - The Road to Calvary.jpg */,
+				2D159FA22BBA504D00B26A94 /* 1974.233 - Meekness.jpg */,
+				2D159FA32BBA504D00B26A94 /* 1980.613 - Merahi metua no Tehamana (Tehamana Has Many....jpg */,
+				2D159FA42BBA504D00B26A94 /* 1987.247 - Adam and Eve.jpg */,
+				2D159FA52BBA504D00B26A94 /* 2007.22 - The Emperor Sailing, from The Story of the Emperor....jpg */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D159F782BBA4FC900B26A94 /* Week 08 New */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D159F872BBA4FCB00B26A94 /* Build configuration list for PBXNativeTarget "Week 08 New" */;
+			buildPhases = (
+				2D159F752BBA4FC900B26A94 /* Sources */,
+				2D159F762BBA4FC900B26A94 /* Frameworks */,
+				2D159F772BBA4FC900B26A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 08 New";
+			productName = "Week 08 New";
+			productReference = 2D159F792BBA4FC900B26A94 /* Week 08 New.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D159F712BBA4FC900B26A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2D159F782BBA4FC900B26A94 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2D159F742BBA4FC900B26A94 /* Build configuration list for PBXProject "Week 08 New" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D159F702BBA4FC900B26A94;
+			productRefGroup = 2D159F7A2BBA4FC900B26A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D159F782BBA4FC900B26A94 /* Week 08 New */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D159F772BBA4FC900B26A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D159FAB2BBA504D00B26A94 /* 1926.224 - A Sunday on La Grande Jatte — 1884.jpg in Resources */,
+				2D159FBA2BBA504D00B26A94 /* 1958.299 - The Road to Calvary.jpg in Resources */,
+				2D159FBE2BBA504D00B26A94 /* 2007.22 - The Emperor Sailing, from The Story of the Emperor....jpg in Resources */,
+				2D159F842BBA4FCB00B26A94 /* Preview Assets.xcassets in Resources */,
+				2D159FA72BBA504D00B26A94 /* 1900.52 - Nocturne_ Blue and Gold—Southampton Water.jpg in Resources */,
+				2D159FB72BBA504D00B26A94 /* 1949.544 - Movements.jpg in Resources */,
+				2D159F812BBA4FCB00B26A94 /* Assets.xcassets in Resources */,
+				2D159FA82BBA504D00B26A94 /* 1919.753 - View of Cotopaxi.jpg in Resources */,
+				2D159FBB2BBA504D00B26A94 /* 1974.233 - Meekness.jpg in Resources */,
+				2D159FB02BBA504D00B26A94 /* 1932.172 - Snow at Akabane Bridge in Shiba (Shiba Akabane no....jpg in Resources */,
+				2D159FB92BBA504D00B26A94 /* 1955.1203 - Still Life with Game Fowl.jpg in Resources */,
+				2D159FAF2BBA504D00B26A94 /* 1931.522 - The Bewitched Mill.jpg in Resources */,
+				2D159FBC2BBA504D00B26A94 /* 1980.613 - Merahi metua no Tehamana (Tehamana Has Many....jpg in Resources */,
+				2D159FB52BBA504D00B26A94 /* 1946.396 - Distant View of Niagara Falls.jpg in Resources */,
+				2D159FB62BBA504D00B26A94 /* 1949.518 - Composition (No. 1) Gray-Red.jpg in Resources */,
+				2D159FB32BBA504D00B26A94 /* 1933.1156 - Branch of the Seine near Giverny (Mist).jpg in Resources */,
+				2D159FB42BBA504D00B26A94 /* 1943.602 - Kohada Koheiji, from the series _One Hundred Ghost....jpg in Resources */,
+				2D159FB12BBA504D00B26A94 /* 1933.786 - Saint George and the Dragon.jpg in Resources */,
+				2D159FB22BBA504D00B26A94 /* 1933.1119 - No te aha oe riri (Why Are You Angry_).jpg in Resources */,
+				2D159FAC2BBA504D00B26A94 /* 1926.252 - The Basket of Apples.jpg in Resources */,
+				2D159FBD2BBA504D00B26A94 /* 1987.247 - Adam and Eve.jpg in Resources */,
+				2D159FA92BBA504D00B26A94 /* 1919.898 - The Young Emperor Akbar Arrests the Insolent Shah....jpg in Resources */,
+				2D159FAA2BBA504D00B26A94 /* 1922.422 - The Morning Bath.jpg in Resources */,
+				2D159FB82BBA504D00B26A94 /* 1953.281 - Pillars of the Country.jpg in Resources */,
+				2D159FAE2BBA504D00B26A94 /* 1931.508 - Landscape with Two Poplars.jpg in Resources */,
+				2D159FAD2BBA504D00B26A94 /* 1928.903 - Evening Snow on a Floss Shaper (Nurioke no....jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D159F752BBA4FC900B26A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D159F8B2BBA500200B26A94 /* ImageEntity.swift in Sources */,
+				2D159F7F2BBA4FC900B26A94 /* ContentView.swift in Sources */,
+				2D159F7D2BBA4FC900B26A94 /* Week_08_NewApp.swift in Sources */,
+				2D159F8D2BBA501F00B26A94 /* PhotosView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D159F852BBA4FCB00B26A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D159F862BBA4FCB00B26A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D159F882BBA4FCB00B26A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week 08 New/Preview Content\"";
+				DEVELOPMENT_TEAM = 7B5XW77F64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.yc4889.yupu.Week-08-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D159F892BBA4FCB00B26A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week 08 New/Preview Content\"";
+				DEVELOPMENT_TEAM = 7B5XW77F64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.yc4889.yupu.Week-08-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D159F742BBA4FC900B26A94 /* Build configuration list for PBXProject "Week 08 New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D159F852BBA4FCB00B26A94 /* Debug */,
+				2D159F862BBA4FCB00B26A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D159F872BBA4FCB00B26A94 /* Build configuration list for PBXNativeTarget "Week 08 New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D159F882BBA4FCB00B26A94 /* Debug */,
+				2D159F892BBA4FCB00B26A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D159F712BBA4FC900B26A94 /* Project object */;
+}
